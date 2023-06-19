@@ -1,0 +1,49 @@
+/*
+---TYPOGRAPHY
+-FontSize(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-FontHeight:
+-FontWeight:`
+defalult: 400
+
+
+-WhiteSpces(px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+---COLORS:
+
+-primary: #e67e22
+-tints:
+-shades:
+-greys:  #555
+-accents:
+
+
+---SHADOWS:
+
+---BORDER-RADIUS:
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /*set base font-size of 62.5% of 16px(default-size) i.e. 10px*/
+}
+
+h1 {
+  color: #555;
+}
+
+.test {
+  background-color: red;
+  padding: 5rem;
+  font-size: 2rem;
+  max-width: 120rem;
+  color: #fff;
+}
