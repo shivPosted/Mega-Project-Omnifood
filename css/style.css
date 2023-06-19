@@ -16,8 +16,8 @@ defalult: 400
 
 -primary: #e67e22
 -tints:
--shades:
--greys:  #555
+-shades: #cf711f
+-greys:  #555 #333
 -accents:
 
 
@@ -34,15 +34,67 @@ defalult: 400
 
 html {
   font-size: 62.5%; /*set base font-size of 62.5% of 16px(default-size) i.e. 10px*/
+  font-family: sans-serif;
 }
 
 h1 {
+  font-size: 5.2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  color: #333;
+  font-weight: 700;
+}
+.Section-Hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+.hero-summary {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+  /* font-weight: 500; */
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+  display: inline-block;
+  transition: background-color 0.3s; /*always put this in the original state*/
+}
+
+.subscription:link,
+.subscription:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.subscription:hover,
+.subscription:active {
+  background-color: #cf711f;
+}
+
+.learn-more:link,
+.learn-more:visited {
   color: #555;
+  background-color: #fff;
+}
+
+.learn-more:hover,
+.learn-more:active {
+  background-color: #fdf2e9;
+  /*border: 2px solid #fff;     It is not used because it is change  the size of element while adding border ouside the element*/
+  box-shadow: inset 0 0 0 3px #fff;
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 9.6rem;
+  align-items: center;
 }
 
 .hero-grid {
@@ -51,4 +103,8 @@ h1 {
 }
 .hero-img {
   width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important; /*helper class to add the margin to the right side of any element*/
 }
