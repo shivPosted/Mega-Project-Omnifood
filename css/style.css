@@ -40,10 +40,15 @@ h1 {
   color: #555;
 }
 
-.test {
-  background-color: red;
-  padding: 5rem;
-  font-size: 2rem;
-  max-width: 120rem;
-  color: #fff;
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-grid {
+  max-width: 130rem;
+  margin: 0 auto; /*to center the grid in page*/
+}
+.hero-img {
+  width: 100%;
 }
