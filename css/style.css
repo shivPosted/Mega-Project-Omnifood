@@ -44,18 +44,28 @@ h1 {
   color: #333;
   font-weight: 700;
 }
-.Section-Hero {
+
+/*********************************/
+/*HEADER*/
+/*********************************/
+.header {
+  height: 9.6rem; /*we are giving height so that we can make this sticky later*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.8rem;
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
 }
-.hero-summary {
+.logo {
+  height: 2.4rem;
+}
+.navigations {
   font-size: 2rem;
-  line-height: 1.5;
-  margin-top: 3.2rem;
-  margin-bottom: 4.8rem;
-  /* font-weight: 500; */
 }
 
+/*********************************/
+/*General Components*/
+/*********************************/
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -90,6 +100,24 @@ h1 {
   /*border: 2px solid #fff;     It is not used because it is change  the size of element while adding border ouside the element*/
   box-shadow: inset 0 0 0 3px #fff;
 }
+.margin-right-sm {
+  margin-right: 1.6rem !important; /*helper class to add the margin to the right side of any element*/
+}
+
+/*********************************/
+/*Hero Section*/
+/*********************************/
+.Section-Hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero-summary {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 3.2rem;
+  margin-bottom: 4.8rem;
+  /* font-weight: 500; */
+}
 
 .hero-grid {
   display: grid;
@@ -101,13 +129,10 @@ h1 {
 .hero-grid {
   max-width: 130rem;
   margin: 0 auto; /*to center the grid in page*/
+  padding: 0 3.2rem; /*to make the section to keep distance from screen border when screen size is reduced*/
 }
 .hero-img {
   width: 100%;
-}
-
-.margin-right-sm {
-  margin-right: 1.6rem !important; /*helper class to add the margin to the right side of any element*/
 }
 
 .customer-images {
@@ -123,7 +148,7 @@ h1 {
   height: 4.8rem;
   width: 4.8rem;
   border-radius: 50%;
-  margin-right: -1.4rem;
+  margin-right: -1.6rem;
   border: 3px solid #fdf2e9;
 }
 
