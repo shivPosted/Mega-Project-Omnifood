@@ -59,10 +59,41 @@ h1 {
 .logo {
   height: 2.4rem;
 }
-.navigations {
-  font-size: 2rem;
+
+/*********************************/
+/*NAVIGATIONS*/
+/*********************************/
+
+.main-nav-bar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.nav-blocks:link,
+.nav-blocks:visited {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  font-weight: 500;
 }
 
+.nav-blocks.nav-cta:link,                                          /*to increase specificty to 3 we are asking for selector with 2 classes*/
+.nav-blocks.nav-cta:visited {
+  background-color: #e67e22;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+}
+.nav-blocks.nav-cta:hover,                                          /*to increase specificty to 3 we are asking for selector with 2 classes*/
+.nav-blocks.nav-cta:active {
+  background-color: #cf711f;
+}
+.nav-blocks:hover,
+.nav-blocks:active {
+  color: #e67e22;
+}
 /*********************************/
 /*General Components*/
 /*********************************/
@@ -152,6 +183,9 @@ h1 {
   border: 3px solid #fdf2e9;
 }
 
+.customer-images img:last-child {
+  margin-right: 0;
+}
 .customer-numbers {
   font-size: 1.6rem;
 }
