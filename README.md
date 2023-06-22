@@ -13,3 +13,7 @@
 ![how-to-2](/project-phases-snaps/How-to-2.png)
 
 ![how-to-3](/project-phases-snaps/How-to-3.png)
+
+## phase4 Meals Section
+
+![Meals](/project-phases-snaps/meals.png)
