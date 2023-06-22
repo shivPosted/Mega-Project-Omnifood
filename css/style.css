@@ -164,6 +164,11 @@ h3 {
   column-gap: 6.4rem;
 }
 
+.grid--3-col {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.2rem;
+}
+
 .step-number {
   color: #ddd;
   font-size: 8.6rem;
@@ -261,7 +266,8 @@ h3 {
 .app-image {
   width: 35%;
 }
-.Section-how-to > p {
+.Section-how-to > p,
+.meals-section > p {
   font-size: 1.6rem;
   text-transform: uppercase;
   color: #e67e22;
@@ -308,4 +314,24 @@ h3 {
   padding-bottom: 50%;
   background-color: #fae5d3;
   z-index: -1;
+}
+
+/*********************************/
+/*Meals Section*/
+/*********************************/
+.meal {
+  height: 40%;
+}
+
+.meal-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meals ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+  font-size: 1.8rem;
 }
