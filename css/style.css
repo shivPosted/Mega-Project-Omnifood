@@ -138,7 +138,7 @@ h1 {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  /* padding: 9.6rem 0; */
+  padding: 9.6rem 0;
 }
 
 h2 {
@@ -179,6 +179,28 @@ h3 {
 .grid--center-v {
   align-items: center;
 }
+strong {
+  font-weight: 500;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.4rem 1.2rem;
+  background-color: #22c55e;
+  font-weight: 700;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 1.2rem 0;
+  margin-right: 1rem;
+}
+
+.tag-2 {
+  background-color: #fdba74;
+  margin-right: 0;
+}
+
 /*********************************/
 /*Hero Section*/
 /*********************************/
@@ -272,7 +294,7 @@ h3 {
   text-transform: uppercase;
   color: #e67e22;
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .how-to-image {
   display: flex;
@@ -319,8 +341,8 @@ h3 {
 /*********************************/
 /*Meals Section*/
 /*********************************/
-.meal {
-  height: 40%;
+.meal-img img {
+  max-width: 100%;
 }
 
 .meal-name {
@@ -334,4 +356,27 @@ h3 {
   gap: 1.6rem;
   list-style: none;
   font-size: 1.8rem;
+}
+
+.meal-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
+}
+
+.meal-properties {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meals {
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.075);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.meal-detail {
+  padding: 4.8rem;
+  padding-top: 2.4rem;
 }
