@@ -307,7 +307,8 @@ strong {
   width: 35%;
 }
 .Section-how-to > p,
-.meals-section > p {
+.meals-section > p,
+.testimonial-container > p {
   font-size: 1.6rem;
   text-transform: uppercase;
   color: #e67e22;
@@ -411,6 +412,10 @@ strong {
   gap: 2.4rem;
 }
 
+.meal-list h3 {
+  text-align: left;
+}
+
 .meal-list > ul li {
   font-size: 1.8rem;
   display: flex;
@@ -440,4 +445,30 @@ strong {
 .list:hover,
 .list:active {
   border-bottom: 1px solid transparent;
+}
+
+/*********************************/
+/*Testimonial Section*/
+/*********************************/
+.Testimonialimg {
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.testimonial.grid--2-col {
+  gap: 4.8rem;
+}
+blockquote {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+.customer-name-testimonial {
+  font-size: 1.2rem;
+  color: #777;
+}
+.testimonial-container > p {
+  color: #e67e22;
+  font-size: 1.6rem;
 }
