@@ -306,9 +306,7 @@ strong {
 .app-image {
   width: 35%;
 }
-.Section-how-to > p,
-.meals-section > p,
-.testimonial-container > p {
+.sub-heading {
   font-size: 1.6rem;
   text-transform: uppercase;
   color: #e67e22;
@@ -454,6 +452,7 @@ strong {
 .Section-testimonial {
   background-color: #fdf2e9;
   column-gap: 0;
+  grid-template-columns: 55fr 45fr;
   /* padding: 1.6rem 1.6rem; */
 }
 .Testimonialimg {
@@ -501,4 +500,69 @@ blockquote {
 
 .gallery-item {
   overflow: hidden;
+}
+
+/*********************************/
+/*Price Section*/
+/*********************************/
+.price-panel-intro {
+  margin-bottom: 3.6rem;
+  text-align: center;
+}
+.price-panel {
+  border-radius: 1rem;
+  padding: 6.4rem;
+  width: 70%;
+}
+.price-panel-starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+  padding: 6.2rem;
+}
+.price-panel-complete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+.price-panel-complete::after {
+  content: "Best value";
+  text-transform: uppercase;
+  background-color: #fbbf24;
+  padding: 0.6rem 6.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  position: absolute;
+  top: 6%;
+  right: -16%;
+  transform: rotate(45deg);
+}
+.price-name {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #e67e22;
+  text-transform: uppercase;
+  letter-spacing: -0.3px;
+}
+
+.price-cost {
+  font-size: 5.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.price-cost span {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.price-comment {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+.margin-bottom-md {
+  margin-bottom: 3.6rem;
 }
