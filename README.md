@@ -25,3 +25,4 @@
 ## phase6 price-panel section
 
 ![price-panel](/project-phases-snaps/price-panel.png)
+![feature](/project-phases-snaps/features.png)
