@@ -21,3 +21,7 @@
 ## phase5 testimonial Section
 
 ![Testimonial](/project-phases-snaps/testimonials-1.png)
+
+## phase6 price-panel section
+
+![price-panel](/project-phases-snaps/price-panel.png)
