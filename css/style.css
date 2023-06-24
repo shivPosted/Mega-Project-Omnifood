@@ -178,7 +178,9 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 6.4rem;
 }
-
+.grid--4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
 .step-number {
   color: #ddd;
   font-size: 8.6rem;
@@ -509,9 +511,10 @@ blockquote {
   margin-bottom: 3.6rem;
   text-align: center;
 }
+
 .price-panel {
   border-radius: 1rem;
-  padding: 6.4rem;
+  padding: 6.4rem 6.8rem;
   width: 70%;
 }
 .price-panel-starter {
@@ -527,7 +530,7 @@ blockquote {
 .price-panel-complete::after {
   content: "Best value";
   text-transform: uppercase;
-  background-color: #fbbf24;
+  background-color: #ffd700;
   padding: 0.6rem 6.4rem;
   font-size: 1.4rem;
   font-weight: 700;
@@ -565,4 +568,8 @@ blockquote {
 }
 .margin-bottom-md {
   margin-bottom: 3.6rem;
+}
+
+.grid--2col-bt-margin {
+  margin-bottom: 6.4rem;
 }
