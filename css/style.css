@@ -32,6 +32,10 @@ defalult: 400
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: 4px dotted #e67e22;
+  outline-offset: 5px;
+}
 html {
   font-size: 62.5%; /*set base font-size of 62.5% of 16px(default-size) i.e. 10px*/
   font-family: "Ubuntu", sans-serif;
@@ -97,6 +101,7 @@ h1 {
 /*********************************/
 /*General Reusable Components*/
 /*********************************/
+.cta-btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -290,6 +295,10 @@ strong {
   color: #666;
   text-align: center;
   margin: 3.2rem 0;
+}
+
+.Section-featured-in {
+  padding: 3.2rem 0;
 }
 
 .logos {
@@ -507,6 +516,7 @@ blockquote {
 /*********************************/
 /*Price Section*/
 /*********************************/
+
 .price-panel-intro {
   margin-bottom: 3.6rem;
   text-align: center;
@@ -607,7 +617,6 @@ blockquote {
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: 50rem;
   overflow: hidden;
   border-radius: 9px;
 }
@@ -637,4 +646,43 @@ blockquote {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 6.4rem;
   row-gap: 3.2rem;
+}
+
+.form-cta label {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 1.2rem;
+}
+.form-cta input,
+.form-cta select {
+  border: none;
+  background-color: #fdf2e9;
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 1.2rem;
+  font-family: inherit;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-cta input::placeholder {
+  color: #aaa;
+}
+
+.cta-btn {
+  padding: 1.2rem;
+  cursor: pointer;
+  background-color: #2e1907;
+  align-self: end;
+  border: none;
+  color: #fdf2e9;
+}
+.cta-btn:hover {
+  background-color: #fff;
+  color: #2e1907;
+}
+
+.form-cta *:focus {
+  outline: 4px dotted #fdf2e9;
+  outline-offset: 4px;
 }

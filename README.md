@@ -27,3 +27,7 @@
 ![price-panel](/project-phases-snaps/price-panel.png)
 
 ![feature](/project-phases-snaps/features.png)
+
+## phase7 call-to-action section
+
+![cta](/project-phases-snaps/cta.png)
