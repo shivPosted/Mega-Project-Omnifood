@@ -31,3 +31,7 @@
 ## phase7 call-to-action section
 
 ![cta](/project-phases-snaps/cta.png)
+
+## phase8 footer
+
+![footer](/project-phases-snaps/footer.png)
