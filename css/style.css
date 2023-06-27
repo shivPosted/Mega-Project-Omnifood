@@ -372,6 +372,9 @@ strong {
 /*********************************/
 /*Meals Section*/
 /*********************************/
+.meal-cards {
+  padding: 0 3.2rem;
+}
 .meal-img img {
   max-width: 100%;
 }
@@ -520,6 +523,12 @@ blockquote {
 /*Price Section*/
 /*********************************/
 
+.Section-price .sub-heading,
+.Section-price h2,
+.Section-price .features {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
 .price-panel-intro {
   margin-bottom: 3.6rem;
   text-align: center;
@@ -614,6 +623,9 @@ blockquote {
 /*CTA Section*/
 /*********************************/
 
+.Section-cta {
+  padding: 9.6rem 3.2rem;
+}
 .cta {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   /* background-color: #e67e22; */
@@ -693,6 +705,9 @@ blockquote {
 /*********************************/
 /*Footer*/
 /*********************************/
+.footer-section {
+  padding: 9.6rem 3.2rem;
+}
 .footer {
   border-top: 1px solid #eee;
   margin-top: 12.8rem;
