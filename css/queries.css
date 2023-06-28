@@ -6,7 +6,7 @@
     font-size: 4.4rem;
   }
 
-  .gallery.grid.grid--3-col {
+  .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
   .testimonial-container {
@@ -33,6 +33,9 @@
   .grid--3-col {
     column-gap: 4.8rem;
   }
+  .grid--4-col {
+    column-gap: 4.8rem;
+  }
   .header {
     padding: 0 3.2rem;
   }
@@ -46,7 +49,56 @@
     padding: 9.6rem 3.2rem;
   }
 }
-/*
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+    padding: 0 8rem;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .customer-images {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+  .hero-description,
+  .hero-image {
+    text-align: center;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 7.4rem;
+  }
+  .meal-detail {
+    padding: 3.2rem;
+    padding-top: 2.4rem;
+  }
+  .price-panel {
+    padding: 4.8rem;
+  }
+  .Section-testimonial {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.2rem;
+  }
+  .cta {
+    grid-template-columns: 3fr, 2fr;
+  }
+  .form-cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-btn {
+    margin-top: 1.2rem;
+  }
+} /*
 -FontSize(px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 -WhiteSpces(px):
