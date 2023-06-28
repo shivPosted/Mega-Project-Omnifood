@@ -426,6 +426,7 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  line-height: 1.8;
 }
 
 .meal-list h3 {
@@ -643,6 +644,7 @@ blockquote {
     ),
     url(../img/eating.jpg);
   background-size: cover;
+  background-position: center;
 }
 .cta-form {
   padding: 6.4rem 8rem;
