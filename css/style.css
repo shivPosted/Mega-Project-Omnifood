@@ -39,6 +39,10 @@ defalult: 400
 html {
   font-size: 62.5%; /*set base font-size of 62.5% of 16px(default-size) i.e. 10px*/
   font-family: "Ubuntu", sans-serif;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
 }
 
 h1 {
@@ -59,6 +63,7 @@ h1 {
   align-items: center;
   padding: 0 4.8rem;
   background-color: #fdf2e9;
+  position: relative;
 }
 .logo {
   height: 2.4rem;
@@ -97,6 +102,20 @@ h1 {
 .nav-blocks:hover,
 .nav-blocks:active {
   color: #e67e22;
+}
+.main-nav-btn {
+  border: none;
+  background: none;
+  display: none;
+}
+.icon-mobile-nav {
+  width: 4.8rem;
+  height: 4.8rem;
+  cursor: pointer;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 /*********************************/
 /*General Reusable Components*/
