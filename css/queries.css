@@ -148,6 +148,45 @@
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
+  @media (max-width: 46.75em) {
+    .meal-cards {
+      grid-template-columns: 1fr 1fr;
+    }
+    .features {
+      grid-template-columns: 1fr 1fr;
+    }
+    .meal-list {
+      grid-column: 1 / -1;
+      justify-self: center;
+    }
+    .meal-detail {
+      padding-bottom: 6.4rem;
+    }
+    h2 {
+      margin-bottom: 4.8rem;
+    }
+    .price-panel {
+      width: 100%;
+      padding: 2.4rem;
+    }
+    .Section-price .grid {
+      column-gap: 2.4rem;
+      margin: 0 3.2rem;
+    }
+    .footer-section {
+      grid-template-columns: repeat(6, 1fr);
+    }
+    .footer-extra-resources,
+    .footer-company-info,
+    .footer-user-account {
+      grid-row: 1;
+      grid-column: span 2;
+    }
+    .logo-division,
+    .footer-address {
+      grid-column: span 3;
+    }
+  }
 } /*
 -FontSize(px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
