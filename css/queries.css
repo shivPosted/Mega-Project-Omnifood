@@ -98,6 +98,56 @@
   .cta-btn {
     margin-top: 1.2rem;
   }
+  .main-nav-btn {
+    display: block;
+  }
+  .main-nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.97);
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.8rem;
+    transition: all 0.5s ease-in;
+
+    /*hiding the navigation*/
+    /* allow no transition at all */
+    /* display: none; */
+
+    /*hide it visually*/
+    opacity: 0;
+
+    /*make it unaccesseble*/
+    pointer-events: none;
+
+    /*hide it from screen recorders*/
+    visibility: none;
+
+    transform: translate(100%, 0);
+  }
+
+  .nav-open .main-nav-bar {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+  .nav-blocks:link,
+  .nav-blocks:visited {
+    font-size: 3rem;
+    display: flex;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
 } /*
 -FontSize(px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
