@@ -149,6 +149,9 @@
     display: block;
   }
   @media (max-width: 46.75em) {
+    html {
+      font-size: 50%;
+    }
     .meal-cards {
       grid-template-columns: 1fr 1fr;
     }
@@ -167,7 +170,6 @@
     }
     .price-panel {
       width: 100%;
-      padding: 2.4rem;
     }
     .Section-price .grid {
       column-gap: 2.4rem;
@@ -186,6 +188,65 @@
     .footer-address {
       grid-column: span 3;
     }
+  }
+}
+@media (max-width: 34em) {
+  .grid,
+  .grid--2-col,
+  .grid--3-col,
+  .grid--4-col {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .hero-summary {
+    font-size: 1.6rem;
+  }
+  .subscription.btn {
+    padding: 2.4rem 1.2rem;
+    font-size: 1.6rem;
+  }
+  .learn-more.btn {
+    padding: 2.4rem 1.4rem;
+    font-size: 1.6rem;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .Section-Hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+  .logos img {
+    height: 1.4rem;
+  }
+  .how-to-image:nth-child(2) {
+    grid-row: 1;
+  }
+  .how-to-image:nth-child(6) {
+    grid-row: 5;
+  }
+  .how-to-image {
+    transform: translateY(4.8rem);
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .testimonial-container {
+    padding-bottom: 0;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    padding: 3.2rem 4.8rem;
+  }
+  .cta-img {
+    height: 32rem;
+    grid-row: 1;
+  }
+  .meals-section {
+    padding-top: 3.2rem;
   }
 } /*
 -FontSize(px)
