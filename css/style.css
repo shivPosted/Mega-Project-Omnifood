@@ -229,7 +229,7 @@ strong {
   font-weight: 700;
   border-radius: 10rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #2e1907;
   margin: 1.2rem 0;
   margin-right: 1rem;
 }
@@ -237,7 +237,8 @@ strong {
   background-color: #22c55e;
 }
 .tag-paleo {
-  background-color: #fdba74;
+  background-color: #fafa00;
+
   margin-right: 0;
 }
 
@@ -455,7 +456,6 @@ strong {
 .meal-list > ul li {
   font-size: 1.8rem;
   display: flex;
-  align-items: center;
   color: #555;
   gap: 1.6rem;
 }
@@ -558,7 +558,7 @@ blockquote {
 .price-panel {
   border-radius: 1rem;
   padding: 6.4rem 6.8rem;
-  width: 70%;
+  width: 75%;
 }
 .price-panel-starter {
   justify-self: end;
