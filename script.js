@@ -7,8 +7,18 @@ console.log("Hello World!");
 //   h1.style.backgroundColor = 'red';
 // })
 
+//set current year
 const currentYear = document.querySelector('.year');
 currentYear.innerText = new Date().getFullYear();
+
+
+//menu-bar working
+const menuButton = document.querySelector('.main-nav-btn');
+menuButton.addEventListener('click', function(){
+  const menuWork = document.querySelector('.header');
+  console.log(menuWork.innerHTML);
+  menuWork.classList.toggle('nav-open');
+})
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
