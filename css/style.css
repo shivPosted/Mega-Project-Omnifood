@@ -40,6 +40,7 @@ html {
   font-size: 62.5%; /*set base font-size of 62.5% of 16px(default-size) i.e. 10px*/
   font-family: "Ubuntu", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;

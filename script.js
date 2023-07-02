@@ -1,3 +1,5 @@
+const menuWork = document.querySelector('.header');
+
 console.log("Hello World!");
 // const h1 = document.querySelector('h1');
 
@@ -11,14 +13,26 @@ console.log("Hello World!");
 const currentYear = document.querySelector('.year');
 currentYear.innerText = new Date().getFullYear();
 
+const allLink = document.querySelectorAll('a:link');
+
+
 
 //menu-bar working
 const menuButton = document.querySelector('.main-nav-btn');
 menuButton.addEventListener('click', function(){
-  const menuWork = document.querySelector('.header');
   console.log(menuWork.innerHTML);
   menuWork.classList.toggle('nav-open');
 })
+
+//making menu bar disappear when clicked
+allLink.forEach(function(link){
+link.addEventListener('click', () => {
+  if(link.classList.contains('nav-blocks')){
+    menuWork.classList.toggle('nav-open');
+  }
+})
+});
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
