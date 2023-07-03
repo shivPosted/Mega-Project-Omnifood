@@ -42,8 +42,7 @@ const obs = new IntersectionObserver(function(entries){
     document.body.classList.add('sticky');
   }
   if(ent.isIntersecting){
-    document.body.classList.remove('sticky');
-    
+    document.body.classList.remove('sticky'); 
   }
 }, 
 {
