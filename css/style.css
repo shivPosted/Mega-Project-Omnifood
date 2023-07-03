@@ -813,3 +813,24 @@ address {
 .footer-section li:last-child {
   margin-bottom: 0;
 }
+
+/*STICKY NAV*/
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  padding-top: 0;
+  padding-top: 0;
+  height: 8rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 0.1s ease-in-out;
+}
+.sticky .Section-Hero {
+  margin-top: 9.6rem;
+}

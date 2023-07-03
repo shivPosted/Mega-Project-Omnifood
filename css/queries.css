@@ -106,7 +106,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgba(255, 255, 255, 0.5);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -114,6 +114,8 @@
     align-items: center;
     gap: 4.8rem;
     transition: all 0.5s ease-in;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 
     /*hiding the navigation*/
     /* allow no transition at all */
